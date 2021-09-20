@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import model from "../../images/model/banner-model.png";
 
 const Home = () => {
     return (
@@ -67,11 +68,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="col-12 col-md-8 col-lg-6">
-                        <img
-                            src="images/model/banner-model.png"
-                            alt=""
-                            className="w-100"
-                        />
+                        <img src={model} alt="" className="w-100" />
                     </div>
                 </div>
             </div>
