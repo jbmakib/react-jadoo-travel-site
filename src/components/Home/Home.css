@@ -1,0 +1,25 @@
+#home {
+    background-image: url("../../images/bg/home.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home .btn-orange {
+    background-color: orange;
+}
+
+#home .text-lightred {
+    color: #e06951;
+}
+
+@media only screen and (min-width: 993px) {
+    #home h1 {
+        font-size: 65px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #home h1 {
+        font-size: 45px;
+    }
+}
